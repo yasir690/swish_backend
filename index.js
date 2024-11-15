@@ -45,7 +45,7 @@ app.get("/", (req, res) => {
   res.send("Swish server is up");
 });
 app.get("/checkserver", (req, res) => {
-  res.send("welcome to application server is up and working on ec2");
+  res.send("welcome to application server is up and working on ec2!!!");
 });
 
 app.listen(port, (req, res) => {
